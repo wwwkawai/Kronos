@@ -30,7 +30,7 @@ STOCKS = [
     "ASML.US", "AVGO.US", "ORCL.US", "MU.US",
 ]
 LOOKBACK_TRADING_DAYS = 60  # fetch ~3 months of recent data
-ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 OUTPUT_DIR = os.path.join(ROOT, 'finetune_csv', 'data', 'eval')
 
 
