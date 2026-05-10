@@ -49,6 +49,13 @@ Desktop.ini
 *.h5
 *.hdf5
 
+# Generated/raw data
+finetune_csv/data/
+finetune_csv/finetuned/
+examples/model_cache/
+examples/us_data/
+examples/history_data.jsonl
+
 # Model files (large files)
 *.pth
 *.pt

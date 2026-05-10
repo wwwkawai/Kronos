@@ -72,7 +72,7 @@ class Config:
         # =================================================================
         # Experiment Logging & Saving
         # =================================================================
-        self.use_comet = True # Set to False if you don't want to use Comet ML
+        self.use_comet = False # Set to False if you don't want to use Comet ML
         self.comet_config = {
             # It is highly recommended to load secrets from environment variables
             # for security purposes. Example: os.getenv("COMET_API_KEY")
